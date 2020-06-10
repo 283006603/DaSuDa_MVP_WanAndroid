@@ -33,6 +33,7 @@ public class ImageMeiziActivity extends BaseMVPActivity<MeiziPresenter> implemen
 
     @Override
     protected int getLayoutResId(){
+        
         return R.layout.activity_image_meizi;
     }
 
