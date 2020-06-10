@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+   
+    
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/main_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>-->
+    <FrameLayout
+        android:id="@+id/fl_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_ea" />
+        />
+    
+    <RadioGroup
+        android:id="@+id/main_RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+    
+      
+    
+        <com.apptutti.tuttistore.widge.BadgeRadioButton
+            android:id="@+id/main_rb_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/news_selector"
+            android:gravity="center"
+            android:text="项目"
+            android:textSize="10sp"
+           
+            />
+    
+       
+        <com.apptutti.tuttistore.widge.BadgeRadioButton
+            android:id="@+id/main_rb_applist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/news_selector"
+            android:gravity="center"
+            android:text="项目"
+            android:textSize="10sp" />
+        
+    
+    
+        <com.apptutti.tuttistore.widge.BadgeRadioButton
+            android:id="@+id/main_rb_stats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/affais_selector"
+            android:gravity="center"
+            android:text="体系"
+            android:textSize="10sp" />
+    
+    
+        <com.apptutti.tuttistore.widge.BadgeRadioButton
+            android:id="@+id/main_rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/affais_selector"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="10sp" />
+        
+       <!-- <RadioButton
+            android:id="@+id/main_rb_applist"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/news_selector"
+            android:text="项目"
+            />
+        
+        <RadioButton
+            android:id="@+id/main_rb_stats"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/affais_selector"
+            android:text="体系"
+            />
+    
+        <RadioButton
+            android:id="@+id/main_rb_mine"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/affais_selector"
+            android:text="我的"
+            />
+        -->
+        
+    </RadioGroup>
+</LinearLayout>
